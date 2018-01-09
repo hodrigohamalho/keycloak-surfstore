@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Surf Store</title>
+
+    <link rel="stylesheet" href="node_modules/patternfly/dist/css/patternfly.min.css" />
+    <link rel="stylesheet" href="node_modules/patternfly/dist/css/patternfly-additions.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+      
+<body >
+  <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <!-- nav -->
+  <nav class="navbar navbar-default navbar-pf" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <p> Surf Store </p>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-primary">
+        <li >
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/help">Help ?</a>
+        </li>
+      </ul>
+    </div>
+  </nav>  <!-- end nav -->
+  
+  <div class="container-fluid container-cards-pf" id="card-container">
+    <div class="row row-cards-pf">
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <div class="card-pf card-pf-view card-pf-view-select card-pf-view-multi-select">
+          <div class="card-pf-body">
+            <div class="card-pf-top-element">
+              <img src="images/lost-prancha-de-surf-lost-sub-scorcher.jpg" />
+            </div>
+            <h2 class="card-pf-title text-center">
+              PRANCHA DE SURF LOST SUB SCORCHER
+            </h2>
+            <div class="card-pf-items text-center">
+              <div class="card-pf-item">
+                <span class="fa fa-money"></span>
+                <span class="card-pf-item-text">R$ 1990</span>
+              </div>
+            </div>
+            <p class="card-pf-info text-center"><strong>Size</strong> 5,11"</p>
+          </div>
+          <div class="card-pf-view-checkbox">
+            <input type="checkbox">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

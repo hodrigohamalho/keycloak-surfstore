@@ -1,0 +1,12 @@
+{
+  "name": "surf-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hodrigohamalho/rhsso-example.git",
+  "author": "Rodrigo Ramalho ",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "patternfly": "^3.35.1"
+  }
+}
