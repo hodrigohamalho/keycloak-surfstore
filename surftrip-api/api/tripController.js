@@ -5,19 +5,19 @@ var trips = [
     place: "Hawaii",
     meal: true,
     transfer: true,
-    image: "hawaii.jpg"
+    image: "images/hawaii.jpg"
   },
   {
     place: "Maldivas",
     meal: true,
     transfer: true,
-    image: "maldivas.jpg"
+    image: "images/maldivas.jpg"
   },
   {
     place: "Costa Rica",
     meal: true,
     transfer: true,
-    image: "costarica.jpg"
+    image: "images/costarica.jpg"
   }
 ];
 
